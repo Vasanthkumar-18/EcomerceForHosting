@@ -1,0 +1,65 @@
+.searchContainer {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 80px;
+}
+.searchNav {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.searchNav form {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 300;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0px;
+  background-color: lightgreen;
+}
+.searchNav input {
+  height: 80%;
+  width: 80%;
+  font-size: 1rem;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.searchNav button {
+  height: 70%;
+  width: 80px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.backIcon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+@media screen and (max-width: 500px ) {
+  .searchNav form{
+    height: 60px;
+    
+  }
+  .searchNav input{
+    font-size: 12px;
+  }
+  
+}
